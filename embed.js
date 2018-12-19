@@ -21,6 +21,7 @@ var DLBTN = DLBTN || (function(){
             var a='e',b='m',c='b',d='e',e='d',f='f',g='i',h='l',i='e',j='https',k='net',l='embed',m='button';
             var iframe = document.createElement('iframe');
             iframe.src = j+'://'+a+b+c+d+e+f+g+h+i+'.'+k+'/'+l+'/'+m+'/'+_settings.hash;
+            iframe.scrolling = 'no';
             iframe.style.maxWidth = _settings.maxWidth;
             iframe.style.height = '54px';
             iframe.style.border = 0;
